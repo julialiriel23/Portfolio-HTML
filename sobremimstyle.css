@@ -1,0 +1,71 @@
+/* Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+ 
+.Cabeça{
+    display:flex;
+    font-family: Montserrat, sans-serif; 
+    font-size: 10px;
+    width: 100%;
+    color: #22d4fd;
+    margin-bottom: 5%;
+    margin-top: 3%;
+   
+}
+.Cabeça h1{
+    margin-left: 10px;
+    
+}
+.Cabeça h1 a{
+    text-decoration:none;
+    color:#22d4fd;
+}
+
+.Apresentação{
+    padding:  5% 15%;
+    align-items: center;
+    display:flex;
+    justify-content: space-between; 
+}
+
+
+ img {
+    width: 40%;
+ }
+
+ .Conteudo_texto{
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    width: 50%;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+ 
+
+.Rodapé{
+    margin-top: 5vh;
+    height: 5vh;
+    background-color: #22d4fd;
+}
+
+.Rodape_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}

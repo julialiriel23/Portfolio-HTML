@@ -1,0 +1,99 @@
+/* Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+    display: flex;
+}
+
+.Cabeça{
+    display:flex;
+    font-family: Montserrat, sans-serif; 
+    font-size: 10px;
+    width: 100%;
+    color: #22d4fd;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.Cabeça h1{
+    margin-left: 10px;
+    
+}
+.Cabeça h1 a{
+    text-decoration:none;
+    color:#22d4fd;
+}
+
+.Apresentação{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0% 15%;
+}
+
+.Conteudo_texto{
+    display:flex;
+    font-family: Montserrat, sans-serif; 
+    width: 615px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Apresentação_Conteudo_Titulo{
+    font-family: "Montserrat", sans-serif; 
+    font-size: 25px ;
+    color:aliceblue
+
+}
+.Apresentação_destaque{
+    font-family: Montserrat, sans-serif; 
+    font-size: 25px ;
+    color: #22d4fd;
+}
+    
+.Paragrafo{
+    font-family: "Montserrat", sans-serif ;
+    font-size: 15px;
+    color:rgb(179, 175, 175);
+}
+.Redes{
+    font-family: "Montserrat", sans-serif ;
+    font-size: 15px;
+    color:rgb(179, 175, 175);
+    margin-bottom: 3%;
+    margin-left: 10%;
+}
+.Apresentação_link{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 30%;
+}
+.Botões_link{
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 400px;
+    font-size: 24px;
+    text-align:center;
+    background-color:black;
+    text-decoration:none;
+    color:white;
+    padding: 21px 0px;
+    width:280px;
+    border-radius:10px;
+    border-width: 2px; 
+    border-style: solid; 
+    border-color:  white;
+    border: 2p solid ;
+    margin-top: 2vh;
+    border-color:  #22d4fd;
+}
+
+
